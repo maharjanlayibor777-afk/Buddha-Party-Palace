@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddha Party Palace | Siddhipur, Lalitpur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 400: '#facc15', 500: '#eab308', 600: '#ca8a04', 700: '#a16207' },
+                        platinum: { 300: '#cbd5e1', 400: '#94a3b8', 500: '#64748b' },
+                        dark: '#0f172a'
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800 antialiased selection:bg-gold-500 selection:text-white">
+
+    <!-- Top Info Bar -->
+    <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fa-solid fa-location-dot text-gold-500 mr-1.5"></i>Siddhipur / Tikathali, Mahalaxmi Municipality, Lalitpur</span>
+                <span class="hidden sm:inline"><i class="fa-solid fa-calendar-check text-gold-500 mr-1.5"></i>Est. 2072 B.S.</span>
+            </div>
+            <div class="flex items-center gap-4 font-medium">
+                <a href="tel:+9779841336638" class="hover:text-gold-400 transition-colors"><i class="fa-solid fa-phone text-gold-500 mr-1"></i> +977 9841336638</a>
+                <a href="tel:+9779813773515" class="hover:text-gold-400 transition-colors"><i class="fa-solid fa-phone text-gold-500 mr-1"></i> +977 9813773515</a>
+                <a href="https://wa.me/9779841336638" target="_blank" class="text-green-400 hover:text-green-300 transition-colors"><i class="fa-brands fa-whatsapp text-base mr-1"></i> WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-gold-500/80 bg-slate-950 flex items-center justify-center shadow-lg flex-shrink-0">
+                    <img src="logo.jpg" alt="Buddha Party Palace Logo" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="hidden w-full h-full bg-gradient-to-tr from-gold-600 to-amber-300 items-center justify-center text-slate-950 font-bold text-xl">
+                        <i class="fa-solid fa-dharmachakra"></i>
+                    </div>
+                </div>
+                <div>
+                    <span class="font-serif text-lg sm:text-xl font-bold tracking-wide text-white block leading-none">BUDDHA</span>
+                    <span class="text-[10px] sm:text-xs text-gold-400 tracking-widest uppercase font-semibold">Party Palace & Events</span>
+                    <span class="text-[9px] text-slate-400 block tracking-tight">Est. 2072 B.S.</span>
+                </div>
+            </a>
+            
+            <div class="hidden lg:flex items-center gap-8 font-medium text-sm">
+                <a href="#about" class="hover:text-gold-400 transition-colors">About Us</a>
+                <a href="#calculator" class="hover:text-gold-400 transition-colors">Price Estimator</a>
+                <a href="#catering" class="hover:text-gold-400 transition-colors">Menu Packages</a>
+                <a href="#contact" class="hover:text-gold-400 transition-colors">Contact</a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="#calculator" class="bg-gradient-to-r from-gold-500 to-amber-600 hover:from-gold-600 hover:to-amber-700 text-slate-950 font-semibold px-5 py-2.5 rounded-full shadow-md text-sm transition-all transform hover:-translate-y-0.5">
+                    Calculate Cost
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="relative min-h-[85vh] flex items-center justify-center bg-slate-950 text-white overflow-hidden py-20">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=2000&q=80" alt="Banquet Hall" class="w-full h-full object-cover opacity-25">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-4 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-widest mb-6">
+                <i class="fa-solid fa-star text-gold-400"></i> Premier Venue in Siddhipur, Lalitpur • Est. 2072 B.S.
+            </div>
+            
+            <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
+                Celebrate Your Precious Moments In <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-gold-400 to-amber-500">Grandeur</span>
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-10 font-light">
+                Host unforgettable Weddings, Receptions, Pasni, Bratabandha, and Corporate Galas at Buddha Party Palace with multi-cuisine dining and luxury amenities.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#calculator" class="w-full sm:w-auto bg-gradient-to-r from-gold-500 to-amber-600 hover:from-gold-600 hover:to-amber-700 text-slate-950 font-bold px-8 py-4 rounded-xl shadow-lg transition-all text-base">
+                    Estimate Event Cost (NPR)
+                </a>
+                <a href="tel:+9779841336638" class="w-full sm:w-auto bg-slate-800/80 hover:bg-slate-800 border border-slate-700 text-white font-semibold px-8 py-4 rounded-xl backdrop-blur-md transition-all text-base flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone text-gold-400"></i> Direct Call Booking
+                </a>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-12 border-t border-slate-800/80 max-w-4xl mx-auto">
+                <div>
+                    <div class="text-2xl sm:text-3xl font-bold font-serif text-gold-400">1000+</div>
+                    <div class="text-xs text-slate-400 mt-1">Guest Capacity</div>
+                </div>
+                <div>
+                    <div class="text-2xl sm:text-3xl font-bold font-serif text-gold-400">100%</div>
+                    <div class="text-xs text-slate-400 mt-1">Generator Power Backup</div>
+                </div>
+                <div>
+                    <div class="text-2xl sm:text-3xl font-bold font-serif text-gold-400">Spacious</div>
+                    <div class="text-xs text-slate-400 mt-1">On-Site Parking</div>
+                </div>
+                <div>
+                    <div class="text-2xl sm:text-3xl font-bold font-serif text-gold-400">Hygiene</div>
+                    <div class="text-xs text-slate-400 mt-1">Multi-Cuisine Kitchen</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pricing / Instant Quote Calculator Section -->
+    <section id="calculator" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-400 font-semibold text-xs tracking-widest uppercase">Instant Cost Estimator</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2">Plan Your Event Budget</h2>
+                <p class="text-slate-400 text-sm mt-3">Select your guest count and package options for an immediate estimated cost in Nepalese Rupees (रु).</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- Controls -->
+                <div class="lg:col-span-7 bg-slate-800/80 p-6 sm:p-8 rounded-2xl border border-slate-700 shadow-xl">
+                    <!-- Guest Count Slider -->
+                    <div class="mb-8">
+                        <div class="flex justify-between items-center mb-3">
+                            <label class="font-semibold text-sm text-slate-200">Expected Guests</label>
+                            <span id="guestCountDisplay" class="font-serif font-bold text-2xl text-gold-400">300 Guests</span>
+                        </div>
+                        <input type="range" id="guestRange" min="100" max="1000" step="50" value="300" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-500">
+                        <div class="flex justify-between text-xs text-slate-400 mt-2">
+                            <span>100</span>
+                            <span>500</span>
+                            <span>1000+</span>
+                        </div>
+                    </div>
+
+                    <!-- Package Tier Selection -->
+                    <div class="mb-8">
+                        <label class="font-semibold text-sm text-slate-200 block mb-3">Select Catering Package Tier</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <button type="button" onclick="setPackage('silver')" id="btn-silver" class="pkg-btn border-2 border-slate-700 bg-slate-900/50 p-3.5 rounded-xl text-left transition-all hover:border-gold-500">
+                                <div class="font-bold text-xs text-slate-200">Silver Feast</div>
+                                <div class="text-[11px] text-slate-400 mt-1">Multi-Course Buffet</div>
+                                <div class="text-gold-400 font-semibold text-xs mt-2">रु 1,350 <span class="text-[9px] text-slate-400">/ plate</span></div>
+                            </button>
+
+                            <button type="button" onclick="setPackage('gold')" id="btn-gold" class="pkg-btn border-2 border-slate-700 bg-slate-900/50 p-3.5 rounded-xl text-left transition-all hover:border-gold-500">
+                                <div class="font-bold text-xs text-gold-300">Gold Royal</div>
+                                <div class="text-[11px] text-slate-400 mt-1">Grand Buffet + Naan</div>
+                                <div class="text-gold-400 font-semibold text-xs mt-2">रु 1,700 <span class="text-[9px] text-slate-400">/ plate</span></div>
+                            </button>
+
+                            <button type="button" onclick="setPackage('platinum')" id="btn-platinum" class="pkg-btn border-2 border-gold-500 bg-gold-500/10 p-3.5 rounded-xl text-left transition-all">
+                                <div class="flex items-center justify-between">
+                                    <span class="font-bold text-xs text-cyan-300">Platinum Imperial</span>
+                                    <span class="bg-cyan-500/20 text-cyan-300 text-[9px] font-extrabold px-1.5 py-0.5 rounded uppercase">Free DJ & Cake</span>
+                                </div>
+                                <div class="text-[11px] text-slate-400 mt-1">Live Counters + Free DJ & Cake</div>
+                                <div class="text-gold-400 font-semibold text-xs mt-2">रु 2,200 <span class="text-[9px] text-slate-400">/ plate</span></div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Add-on Extras -->
+                    <div>
+                        <label class="font-semibold text-sm text-slate-200 block mb-3">Optional Add-ons</label>
+                        <div class="space-y-3">
+                            <label class="flex items-center justify-between p-3 rounded-lg bg-slate-900/50 border border-slate-700/60 cursor-pointer hover:border-slate-600">
+                                <span class="text-sm text-slate-300 flex items-center gap-2">
+                                    <input type="checkbox" id="addonDecor" onchange="calculateTotal()" class="w-4 h-4 rounded text-gold-500 focus:ring-gold-500 bg-slate-800 border-slate-600">
+                                    Custom Stage & Mandap Floral Decor
+                                </span>
+                                <span class="text-xs text-gold-400 font-semibold">+ रु 25,000</span>
+                            </label>
+
+                            <label class="flex items-center justify-between p-3 rounded-lg bg-slate-900/50 border border-slate-700/60 cursor-pointer hover:border-slate-600">
+                                <span class="text-sm text-slate-300 flex items-center gap-2">
+                                    <input type="checkbox" id="addonDj" onchange="calculateTotal()" class="w-4 h-4 rounded text-gold-500 focus:ring-gold-500 bg-slate-800 border-slate-600">
+                                    <span id="addonDjText">DJ Sound System & Stage Lights</span>
+                                </span>
+                                <span id="addonDjPrice" class="text-xs text-gold-400 font-semibold">+ रु 15,000</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Breakdown Summary -->
+                <div class="lg:col-span-5 bg-gradient-to-b from-slate-800 to-slate-850 p-6 sm:p-8 rounded-2xl border border-gold-500/30 shadow-2xl relative">
+                    <div class="absolute -top-3 right-6 bg-gold-500 text-slate-950 font-bold text-[10px] uppercase tracking-wider px-3 py-1 rounded-full">
+                        Estimated Calculation
+                    </div>
+
+                    <h3 class="font-serif text-xl font-bold mb-6 text-white">Estimated Proposal Summary</h3>
+
+                    <div class="space-y-4 border-b border-slate-700 pb-6 mb-6 text-sm">
+                        <div class="flex justify-between text-slate-300">
+                            <span>Selected Package</span>
+                            <span id="selectedPkgText" class="font-semibold text-gold-400">Platinum Imperial Feast Menu</span>
+                        </div>
+                        <div id="bonusInclusionsRow" class="bg-cyan-950/60 border border-cyan-500/30 p-2.5 rounded-lg text-xs text-cyan-200 space-y-1">
+                            <div class="flex items-center gap-1.5 font-bold text-cyan-300">
+                                <i class="fa-solid fa-gift"></i> Complimentary Bonus Included:
+                            </div>
+                            <ul class="list-disc list-inside text-[11px] text-cyan-100 pl-1">
+                                <li>FREE DJ Sound System & Lighting</li>
+                                <li>FREE Custom Wedding Cake for Bride & Groom</li>
+                            </ul>
+                        </div>
+                        <div class="flex justify-between text-slate-300">
+                            <span>Food Catering Subtotal</span>
+                            <span id="cateringSubtotal" class="font-semibold text-white">रु 660,000</span>
+                        </div>
+                        <div class="flex justify-between text-slate-300">
+                            <span>Selected Add-ons</span>
+                            <span id="addonsSubtotal" class="font-semibold text-white">रु 0</span>
+                        </div>
+                        <div class="flex justify-between text-slate-300">
+                            <span>Booking Advance Required</span>
+                            <span class="font-semibold text-gold-400">रु 5,000</span>
+                        </div>
+                    </div>
+
+                    <div class="mb-8">
+                        <span class="text-xs text-slate-400 uppercase tracking-widest block mb-1">Total Estimated Amount</span>
+                        <div id="grandTotal" class="font-serif text-3xl sm:text-4xl font-bold text-gold-400">रु 660,000</div>
+                        <p class="text-[11px] text-slate-400 mt-2">*Final pricing may vary depending on menu customizations and seasonal availability.</p>
+                    </div>
+
+                    <a id="whatsappQuoteBtn" href="https://wa.me/9779841336638" target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 text-sm shadow-lg transition-all">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Send Quote Details to WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Catering Menu Section -->
+    <section id="catering" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-gold-600 font-semibold text-xs tracking-widest uppercase">Official Menu Sheet</span>
+                <h2 id="menuTitle" class="font-serif text-3xl sm:text-4xl font-bold text-slate-900 mt-2">Platinum Imperial Feast Package Menu</h2>
+                <p id="menuPriceSub" class="text-gold-700 font-semibold text-sm mt-2">रु 2,200 per plate (Includes Free DJ & Bride/Groom Cake)</p>
+                <div class="w-20 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Dynamic Package Switcher Tabs -->
+            <div class="flex justify-center mb-12">
+                <div class="inline-flex p-1.5 bg-slate-200 rounded-2xl gap-2 shadow-inner">
+                    <button onclick="setPackage('silver')" id="tab-silver" class="px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all text-slate-700 hover:text-slate-900">Silver Feast (रु 1,350)</button>
+                    <button onclick="setPackage('gold')" id="tab-gold" class="px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all text-slate-700 hover:text-slate-900">Gold Royal (रु 1,700)</button>
+                    <button onclick="setPackage('platinum')" id="tab-platinum" class="px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all bg-slate-900 text-gold-400 shadow-md">Platinum Imperial (रु 2,200)</button>
+                </div>
+            </div>
+
+            <!-- Menu Content Display Box -->
+            <div id="menuContainer"></div>
+        </div>
+    </section>
+
+    <!-- Contact & Direct Booking Section -->
+    <section id="contact" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-gold-400 font-semibold text-xs tracking-widest uppercase">Get in Touch</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2 mb-6">Visit or Call Buddha Party Palace</h2>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-8">
+                        Our venue manager is ready to give you a live tour of our banquet hall and discuss custom menus for your upcoming celebration.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white text-base">Location & Address</h4>
+                                <p class="text-slate-400 text-sm">Siddhipur / Tikathali Branch, Mahalaxmi Municipality, Lalitpur, Nepal</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-gold-400 text-xl flex-shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white text-base">Phone Inquiries</h4>
+                                <p class="text-slate-400 text-sm">9813773515 / 9841336638</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-xl">
+                    <h3 class="font-serif text-xl font-bold mb-4 text-white">Send Direct WhatsApp Message</h3>
+                    <p class="text-slate-400 text-sm mb-6">Click below to open a direct chat with our manager on WhatsApp.</p>
+                    
+                    <a href="https://wa.me/9779841336638?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20booking%20a%20date%20at%20Buddha%20Party%20Palace." target="_blank" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-3 shadow-lg transition-all text-base">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i> Chat on WhatsApp (9841336638)
+                    </a>
+
+                    <div class="mt-6 pt-6 border-t border-slate-700 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <a href="tel:+9779841336638" class="text-gold-400 text-sm font-semibold hover:underline flex items-center gap-2">
+                            <i class="fa-solid fa-phone"></i> 9841336638
+                        </a>
+                        <span class="hidden sm:inline text-slate-600">•</span>
+                        <a href="tel:+9779813773515" class="text-gold-400 text-sm font-semibold hover:underline flex items-center gap-2">
+                            <i class="fa-solid fa-phone"></i> 9813773515
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-8 border-t border-slate-800 text-xs text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>© 2026 Buddha Party Palace & Events (Est. 2072 B.S.). All Rights Reserved. Siddhipur, Lalitpur.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Logic Script -->
+    <script>
+        const menuData = {
+            silver: {
+                name: "Silver Feast Menu",
+                price: 1350,
+                priceText: "रु 1,350 per plate",
+                startersVeg: ["Onion Pagoda", "Veg Tempura", "Paneer Chilli", "Potato Croquettes", "Prawn Cracker", "Sweet Corn Boiled"],
+                startersNonVeg: ["Chicken Chilli / Buff Chilli", "Fish Fried / Fish Boneless"],
+                liveCounters: [],
+                mainsVeg: ["Jeera Rice / Peas Pulao", "Dal Makhani / Yellow Dal Fry", "Roti / Plain Naan", "Mixed Veg Jhalfrezi", "Paneer Masala", "Seasonal Saag", "Mix Pickle", "Lapsi Ko Achar", "Fresh Green Salad"],
+                mainsNonVeg: ["Chicken Curry / Mutton Curry", "Fish Roast / Chicken Roast"],
+                dessert: ["Fresh Fruit Salad / Lal Mohan"]
+            },
+            gold: {
+                name: "Gold Royal Feast Menu",
+                price: 1700,
+                priceText: "रु 1,700 per plate",
+                startersVeg: ["Onion Pagoda", "Veg Tempura", "Paneer Chilli", "Potato Croquettes", "Veg Spring Roll", "Mushroom Sadheko / Chilli"],
+                startersNonVeg: ["Chicken Chilli / Buff Chilli", "Fish Fried / Fish Boneless", "Steamed Sausage / Sausage Chilli"],
+                liveCounters: [],
+                mainsVeg: ["Kashmiri Pulao / Peas Pulao", "Dal Makhani", "Butter Naan", "Veg Jhalfrezi / Veg Manchurian", "Paneer Butter Masala", "Spinach (Seasonal Saag)", "Mix Pickle", "Lapsi Ko Achar", "Russian Salad / Coleslaw Salad"],
+                mainsNonVeg: ["Mutton Curry / Mutton Korma", "Chicken Roast / Fish Boneless"],
+                dessert: ["Fresh Fruit Salad", "Ice Cream"]
+            },
+            platinum: {
+                name: "Platinum Imperial Feast Menu",
+                price: 2200,
+                priceText: "रु 2,200 per plate (Includes Free DJ & Bride/Groom Cake)",
+                startersVeg: ["Onion Pagoda", "Veg Tempura", "Paneer Chilli", "Potato Croquettes", "Crispy Corn Salt & Pepper Sadheko / Sweet Corn Boiled", "Veg Fried Momo", "Mushrooms Chilli / Sadheko"],
+                startersNonVeg: ["Chicken Chilli / Buff Chilli", "Fish Fried / Fish Boneless", "Mutton Tauko Sadheko"],
+                liveCounters: [
+                    { title: "Pani Puri Counter", icon: "fa-utensils" },
+                    { title: "Live Momo Counter", icon: "fa-dumpster-fire" },
+                    { title: "Live Tawa Counter (Pork / Buff / Chicken)", icon: "fa-fire-burner" },
+                    { title: "Ice Cream & Paan Sweets Counter", icon: "fa-ice-cream" }
+                ],
+                mainsVeg: ["Kashmiri Pulao / Peas Pulao", "Dal Makhani", "Butter Naan", "Veg Jhalfrezi / Veg Manchurian", "Paneer Butter Masala", "Mix Pickle", "Spinach (Seasonal Saag)", "Lapsi Ko Achar", "Russian Salad / Coleslaw Salad"],
+                mainsNonVeg: ["Mutton Curry / Mutton Korma / Fish Gravy", "Chicken Roast / Fish Roast"],
+                dessert: ["Fresh Fruit Salad", "Live Ice Cream Counter", "Paan Sweets"]
+            }
+        };
+
+        let selectedTier = 'platinum';
+
+        function setPackage(tier) {
+            selectedTier = tier;
+            const data = menuData[tier];
+
+            // Update Header & Price Labels
+            document.getElementById('selectedPkgText').innerText = data.name;
+            document.getElementById('menuTitle').innerText = data.name;
+            document.getElementById('menuPriceSub').innerText = data.priceText;
+
+            // Update Selector Buttons Styling
+            const btnSilver = document.getElementById('btn-silver');
+            const btnGold = document.getElementById('btn-gold');
+            const btnPlatinum = document.getElementById('btn-platinum');
+
+            const inactiveBtn = "pkg-btn border-2 border-slate-700 bg-slate-900/50 p-3.5 rounded-xl text-left transition-all hover:border-gold-500";
+            const activeBtn = "pkg-btn border-2 border-gold-500 bg-gold-500/10 p-3.5 rounded-xl text-left transition-all";
+
+            btnSilver.className = inactiveBtn;
+            btnGold.className = inactiveBtn;
+            btnPlatinum.className = inactiveBtn;
+
+            if (tier === 'silver') btnSilver.className = activeBtn;
+            if (tier === 'gold') btnGold.className = activeBtn;
+            if (tier === 'platinum') btnPlatinum.className = activeBtn;
+
+            // Update Tabs Styling in Menu Section
+            const tabSilver = document.getElementById('tab-silver');
+            const tabGold = document.getElementById('tab-gold');
+            const tabPlatinum = document.getElementById('tab-platinum');
+
+            const inactiveTab = "px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all text-slate-700 hover:text-slate-900";
+            const activeTab = "px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all bg-slate-900 text-gold-400 shadow-md";
+
+            tabSilver.className = inactiveTab;
+            tabGold.className = inactiveTab;
+            tabPlatinum.className = inactiveTab;
+
+            if (tier === 'silver') tabSilver.className = activeTab;
+            if (tier === 'gold') tabGold.className = activeTab;
+            if (tier === 'platinum') tabPlatinum.className = activeTab;
+
+            // Update Platinum Bonus Row & Add-on Controls
+            const bonusRow = document.getElementById('bonusInclusionsRow');
+            const addonDjCheckbox = document.getElementById('addonDj');
+            const addonDjText = document.getElementById('addonDjText');
+            const addonDjPrice = document.getElementById('addonDjPrice');
+
+            if (tier === 'platinum') {
+                bonusRow.classList.remove('hidden');
+                addonDjCheckbox.checked = false;
+                addonDjCheckbox.disabled = true;
+                addonDjText.innerText = "DJ Sound System (INCLUDED IN PLATINUM)";
+                addonDjPrice.innerText = "FREE";
+            } else {
+                bonusRow.classList.add('hidden');
+                addonDjCheckbox.disabled = false;
+                addonDjText.innerText = "DJ Sound System & Stage Lights";
+                addonDjPrice.innerText = "+ रु 15,000";
+            }
+
+            renderMenu(data);
+            calculateTotal();
+        }
+
+        function renderMenu(data) {
+            const container = document.getElementById('menuContainer');
+            
+            let html = `
+                <!-- Starters -->
+                <div class="mb-12">
+                    <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-lg bg-gold-500 text-slate-950 flex items-center justify-center text-sm font-bold">1</span>
+                        Starters
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                            <h4 class="font-bold text-emerald-700 uppercase tracking-wider text-xs mb-4 flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 inline-block"></span> Vegetarian Starters
+                            </h4>
+                            <ul class="text-sm text-slate-700 space-y-2.5 font-medium">
+                                ${data.startersVeg.map(item => `<li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> ${item}</li>`).join('')}
+                            </ul>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                            <h4 class="font-bold text-rose-700 uppercase tracking-wider text-xs mb-4 flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-rose-600 inline-block"></span> Non-Vegetarian Starters
+                            </h4>
+                            <ul class="text-sm text-slate-700 space-y-2.5 font-medium">
+                                ${data.startersNonVeg.map(item => `<li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> ${item}</li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Live Counters (Platinum only)
+            if (data.liveCounters.length > 0) {
+                html += `
+                    <div class="mb-12">
+                        <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                            <span class="w-8 h-8 rounded-lg bg-gold-500 text-slate-950 flex items-center justify-center text-sm font-bold">2</span>
+                            Live Interactive Food Counters
+                        </h3>
+                        <div class="bg-amber-500/10 border border-gold-500/30 p-6 rounded-2xl shadow-sm">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-slate-800 font-semibold text-sm">
+                                ${data.liveCounters.map(counter => `
+                                    <div class="bg-white p-4 rounded-xl border border-gold-200 flex items-center gap-3 shadow-xs">
+                                        <i class="fa-solid ${counter.icon} text-gold-600 text-lg"></i>
+                                        <span>${counter.title}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Main Course
+            const stepNum = data.liveCounters.length > 0 ? "3" : "2";
+            html += `
+                <div class="mb-12">
+                    <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-lg bg-gold-500 text-slate-950 flex items-center justify-center text-sm font-bold">${stepNum}</span>
+                        Main Course
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                            <h4 class="font-bold text-emerald-700 uppercase tracking-wider text-xs mb-4 flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-600 inline-block"></span> Vegetarian Main Course & Sides
+                            </h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-2.5 text-sm text-slate-700 font-medium">
+                                ${data.mainsVeg.map(item => `<div class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> ${item}</div>`).join('')}
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                            <h4 class="font-bold text-rose-700 uppercase tracking-wider text-xs mb-4 flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-rose-600 inline-block"></span> Non-Vegetarian Main Course
+                            </h4>
+                            <ul class="text-sm text-slate-700 space-y-2.5 font-medium">
+                                ${data.mainsNonVeg.map(item => `<li class="flex items-center gap-2"><i class="fa-solid fa-check text-gold-600 text-xs"></i> ${item}</li>`).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Desserts
+            const dessertNum = data.liveCounters.length > 0 ? "4" : "3";
+            html += `
+                <div>
+                    <h3 class="font-serif text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-lg bg-gold-500 text-slate-950 flex items-center justify-center text-sm font-bold">${dessertNum}</span>
+                        Desserts
+                    </h3>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                        <div class="flex flex-wrap items-center justify-around gap-6 text-slate-800 font-bold text-base">
+                            ${data.dessert.map(item => `
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-apple-whole text-gold-600 text-xl"></i>
+                                    <span>${item}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        function calculateTotal() {
+            const guestCount = parseInt(document.getElementById('guestRange').value);
+            document.getElementById('guestCountDisplay').innerText = guestCount + " Guests";
+
+            const perPlate = menuData[selectedTier].price;
+            const cateringSubtotal = guestCount * perPlate;
+            
+            let addons = 0;
+            if (document.getElementById('addonDecor').checked) addons += 25000;
+            if (selectedTier !== 'platinum' && document.getElementById('addonDj').checked) addons += 15000;
+
+            const grandTotal = cateringSubtotal + addons;
+
+            document.getElementById('cateringSubtotal').innerText = "रु " + cateringSubtotal.toLocaleString();
+            document.getElementById('addonsSubtotal').innerText = "रु " + addons.toLocaleString();
+            document.getElementById('grandTotal').innerText = "रु " + grandTotal.toLocaleString();
+
+            const message = `Hello Buddha Party Palace, I would like to check date availability for an event with ${guestCount} guests using the ${menuData[selectedTier].name} (Estimated cost: NPR ${grandTotal.toLocaleString()}).`;
+            document.getElementById('whatsappQuoteBtn').href = `https://wa.me/9779841336638?text=${encodeURIComponent(message)}`;
+        }
+
+        document.getElementById('guestRange').addEventListener('input', calculateTotal);
+        
+        // Initialize Default View
+        setPackage('platinum');
+    </script>
+</body>
+</html>
